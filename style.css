@@ -16,14 +16,11 @@ header{
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
-    position: sticky;
-    top: 0;
 }
 
 .menu-btn{
     background: none;
     border: none;
-    padding: .5rem;
     color: #FFF;
     font-size: 1.5rem;
     display: none;
@@ -138,6 +135,8 @@ nav ul li > a:hover{
         right: 0;
         display: none;
     }
+    
+    
 
 @media (max-width: 600px) {
     .menu-btn{
@@ -145,6 +144,13 @@ nav ul li > a:hover{
     }
     .container1{
         flex-wrap: wrap;
+    }
+    
+    .menuu{
+        padding: 1px;
+    }
+    .menuu:hover nav{
+        display: flex;
     }
     nav{
         display: none;
@@ -157,6 +163,7 @@ nav ul li > a:hover{
         background: #FFF;
         color: #333;
         box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+        transition: display 1s;
     }
     img{
         margin-inline: auto;
@@ -164,7 +171,7 @@ nav ul li > a:hover{
     nav ul{
         gap: 2rem;
         flex-direction: column;
-        align-items: center;
+        padding: 0;
         justify-content: center;
     }
     nav ul li > a{
@@ -172,4 +179,5 @@ nav ul li > a:hover{
         text-decoration: none;
         padding-bottom: .25rem;
     }
+
 }
