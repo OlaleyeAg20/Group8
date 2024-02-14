@@ -35,6 +35,11 @@ img{
     margin-right: auto;
 }
 
+.logo a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 nav ul{
     display: flex;
     list-style-type: none;
