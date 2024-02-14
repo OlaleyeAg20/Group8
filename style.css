@@ -149,9 +149,7 @@ nav ul li > a:hover{
     .menuu{
         padding: 1px;
     }
-    .menuu:hover nav{
-        display: flex;
-    }
+    
     nav{
         display: none;
         align-items: center;
@@ -163,7 +161,13 @@ nav ul li > a:hover{
         background: #FFF;
         color: #333;
         box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
-        transition: display 1s;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .menuu:hover > nav{
+        display: flex;
+        opacity: 1;
+        
     }
     img{
         margin-inline: auto;
