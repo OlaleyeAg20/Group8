@@ -26,6 +26,16 @@ header{
     display: none;
 }
 
+a:visited{
+    color: rgb(181, 148, 181);
+}
+a:link{
+    color: #FFF;
+}
+a:active{
+    color: aqua;
+}
+
 img{
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 1rem;
@@ -43,6 +53,7 @@ img{
 nav ul{
     display: flex;
     list-style-type: none;
+    align-items: center;
     gap: 1.2rem;
 }
 
@@ -76,13 +87,14 @@ nav ul li > a:hover{
 }
 
 .readmore{
-    display: block;
+    display: inline-block;
     padding: .5rem 1rem;
-    background: #34A853;
+    background: #232323;
     text-align: center;
     color: #FFF;
     text-decoration: none;
     width: 150px;
+    border-radius: 16px;
 }
 
 .viewmore{
