@@ -26,6 +26,16 @@ header{
     display: none;
 }
 
+a:visited{
+    color: rgb(181, 148, 181);
+}
+a:link{
+    color: #FFF;
+}
+a:active{
+    color: aqua;
+}
+
 img{
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 1rem;
