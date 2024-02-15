@@ -16,6 +16,7 @@ header{
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
+    padding-block: 1rem;
 }
 
 .menu-btn{
@@ -41,11 +42,24 @@ img{
     border-radius: 1rem;
 }
 
+.logoContainer{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoContainer h1{
+    margin: 0;
+}
+.logoContainer span{
+    font-size: 1.5rem%
+}
+
 .logo{
     margin-right: auto;
 }
 
-.logo a{
+.logo,.logo:visited,.logo:hover{
     color: #FFF;
     text-decoration: none;
 }
