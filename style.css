@@ -30,7 +30,7 @@ a:visited{
     color: rgb(181, 148, 181);
 }
 a:link{
-    color: #FFF;
+    color: #333;
 }
 a:active{
     color: aqua;
@@ -91,7 +91,7 @@ nav ul li > a:hover{
     padding: .5rem 1rem;
     background: #232323;
     text-align: center;
-    color: #FFF;
+    color: #FFF!important;
     text-decoration: none;
     width: 150px;
     border-radius: 16px;
