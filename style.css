@@ -31,10 +31,14 @@ a:visited{
     color: rgb(181, 148, 181);
 }
 a:link{
-    color: #333;
+    color: #FFF;
 }
 a:active{
     color: aqua;
+}
+
+a:active, a:link, a:visited{
+    text-decoration: none;
 }
 
 img{
@@ -52,7 +56,7 @@ img{
     margin: 0;
 }
 .logoContainer span{
-    font-size: 1.5rem%
+    font-size: 1.5rem;
 }
 
 .logo{
